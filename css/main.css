@@ -1,38 +1,83 @@
-div { /*estilo para la linea divisoria*/
-  height: 5px;
-  background-color: grey;
-  margin-bottom: 20px;
-  margin-left: 1.5%;
-  width: 50px;
+#coders-mexico>div {
+    /*estilo para la linea divisoria*/
+    height: 5px;
+    background-color: grey;
+    margin-bottom: 20px;
+    margin-left: 1.5%;
+    width: 50px;
 }
 
-h3{
-  margin-left: 1.5%;
-  text-align: left;
+#coders-mexico>h3 {
+    margin-left: 1.5%;
+    text-align: left;
 }
 
-
-p { /*estilo para los textos dentro de la imagen*/
-  color: white;
-  font-family: sans-serif;
-  font-size: 100%
-  position: absolute; /*no sé qué pasa, pero si quito uno de estos position el texto ya no se ve...*/
-  position: absolute;
-  top: 85%;
-  right: 6%;
+#coders-mexico>p {
+    /*estilo para los textos dentro de la imagen*/
+    color: white;
+    font-family: sans-serif;
+    font-size: 100% position: absolute;
+    /*no sé qué pasa, pero si quito uno de estos position el texto ya no se ve...*/
+    position: absolute;
+    top: 85%;
+    right: 6%;
 }
 
-section {
-  display: inline-block; /*aplicando este display se hacen bloques dentro de la linea*/
-  margin-left: 1.5%;
-  margin-bottom: 2%;
-  position: relative; /* aplicando relative que toma como referencia el elemento p con position absolute*/
-  width: 31%;
-
+#coders-mexico>section {
+    display: inline-block;
+    /*aplicando este display se hacen bloques dentro de la linea*/
+    margin-left: 1.5%;
+    margin-bottom: 2%;
+    position: relative;
+    /* aplicando relative que toma como referencia el elemento p con position absolute*/
+    width: 31%;
 }
 
-section > img {
-  display: block; /*aplicando este bloque hace que el elemento img tenga como naturaleza posicionarse en bloques tomando como referencia la posición de su padre que es section*/
-  margin: 0 auto;
-  width: 100%;
+#coders-mexico>section>img {
+    display: block;
+    /*aplicando este bloque hace que el elemento img tenga como naturaleza posicionarse en bloques tomando como referencia la posición de su padre que es section*/
+    margin: 0 auto;
+    width: 100%;
+}
+
+#coders-peru>div {
+    /*estilo para la linea divisoria*/
+    height: 5px;
+    background-color: grey;
+    margin-bottom: 20px;
+    margin-left: 1.5%;
+    width: 50px;
+}
+
+#coders-peru>h3 {
+    margin-left: 1.5%;
+    text-align: left;
+}
+
+#coders-peru>p {
+    /*estilo para los textos dentro de la imagen*/
+    color: white;
+    font-family: sans-serif;
+    font-size: 100% position: absolute;
+    /*no sé qué pasa, pero si quito uno de estos position el texto ya no se ve...*/
+    position: absolute;
+    top: 85%;
+    right: 6%;
+}
+
+#coders-peru>section {
+    display: inline-block;
+    /*aplicando este display se hacen bloques dentro de la linea*/
+    margin-left: 1.5%;
+    margin-bottom: 2%;
+    position: relative;
+    /* aplicando relative que toma como referencia el elemento p con position absolute*/
+    width: 31%;
+}
+
+#coders-peru>section>img {
+    display: block;
+    /*aplicando este bloque hace que el elemento img tenga como naturaleza posicionarse en bloques tomando como referencia la posición de su padre que es section*/
+    margin: 0 auto;
+    width: 100%;
 }
